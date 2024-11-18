@@ -1,1 +1,27 @@
 /* Start coding here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
